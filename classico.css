@@ -1,0 +1,280 @@
+/* ===== GLOBAIS ===== */
+
+h1
+{ background: url('../../img/logo-header-classico.png') no-repeat left center; }
+
+.ax-menu-inline .active a { background: #3c3c3c !important; }
+
+.ax-color { color: #555454  !important; }
+
+.ax-bg-color-1,
+.ax-menu .active a,
+.ax-nav-background,
+.ax-menu-inline a:hover,
+.ax-modal-header,
+.ax-modal-header .ax-modal-voltar,
+.ax-modal-actions,
+.ax-modal-actions a,
+.ax-modal-actions button,
+.ax-modal-header .ax-modal-button,
+.ax-nav-relatorio,
+.cbp-spmenu,
+.ax-loader-listagem-black div
+{ background: #3c3c3c!important; }
+
+.ax-modal-start .ax-modal-header,
+.ax-modal-start .ax-modal-header .ax-modal-voltar,
+.ax-modal-start .ax-modal-actions,
+.ax-modal-start .ax-modal-actions a,
+.ax-modal-start .ax-modal-actions button,
+.ax-modal-start .ax-modal-header .ax-modal-button
+{ background: #555454 !important; }
+
+.ax-top-menu li .active,
+.ax-top-menu li a:hover,
+.ax-bg-color-2,
+.ax-modal-header .ax-modal-voltar:hover ,
+.ax-modal-actions a:hover,
+.ax-modal-actions button:hover,
+.ax-modal-header .ax-modal-button:hover,
+.cbp-spmenu .cbp-titulo
+{ background: #4c4c4c; }
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th { background:#777; color: #FFF; }
+.ax-selected:hover {border-color:#0D0D0D }
+
+.ax-modal-start .modal-header,
+.ax-modal-start .modal-body,
+.ax-modal-start .modal-footer { background-color: #555454 !important; }
+
+.form-control:focus {
+    border-color: #555454;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #555454;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #555454;
+}
+
+
+/* Highlight das tabelas */
+.ax-table-padrao td em { color: #757575; }
+
+
+/* ===== PAGINA DE ASSINATURA ===== */
+.selected-plan-period label,
+.popular .plan-price p,
+.payment-progress li.active
+{ background: #757575; }
+
+.payment-progress li.active:after { border-left-color: #757575;}
+
+.payment-progress li { background: #a1a1a1; }
+.payment-progress li:after { border-left-color: #a1a1a1;}
+
+.popular .plan-price p strong { color: #d5d5d5 }
+
+.popular h3 { background: #555454; }
+
+
+/* ===== MENU RESPONSIVO ===== */
+
+.cbp-spmenu a:hover { background: #4c4c4c; color: #FFFFFF;  }
+.cbp-spmenu-vertical a { border-color: #4c4c4c; }
+
+
+/* ===== BOTOES ===== */
+
+.btn-success {  background: #757575; border-color: #757575;}
+
+    .btn-success:hover { background: #808080; border-color: #808080; }
+
+.btn-second { color: #555454 !important; border-color: #555454;  }
+
+    .btn-second:hover { background: #555454; }
+
+.btn-success-cadastro { background: #757575; border-color: #757575;}
+
+    .btn-success-cadastro:hover { background: #808080; border-color: #808080; }
+
+.open>.dropdown-toggle.btn-success,
+.open>.dropdown-toggle.btn-success,
+.btn-success:focus,
+.btn-success:active,
+.btn-success:focus,
+.btn-success.disabled
+{ background: #808080 !important; border-color: #808080 !important; }
+
+.btn-inverse {
+  border-color: #757575;
+  color: #757575;
+}
+
+.btn-inverse:focus,
+.btn-inverse:hover,
+.open>.dropdown-toggle.btn-inverse,
+.btn-inverse.active,
+.btn-inverse.focus,
+.btn-inverse:active,
+.btn-inverse:focus,
+.btn-inverse:hover,
+.btn-inverse.disabled,
+.open>.dropdown-toggle.btn-inverse {
+    border-color: #757575;
+    color: #757575;
+}
+
+/* check boxes */
+.checkbox input[type="checkbox"]:checked + label::before,
+.checkbox input[type="radio"]:checked + label::before {
+  background-color: #555454;
+  border-color: #555454;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+.radio input[type="radio"] + label::after,
+.radio input[type="radio"]:checked + label::after {
+  background-color: #555454;
+}
+.radio input[type="radio"]:checked + label::before {
+  border-color: #555454;
+}
+
+/* ===== LINKS ===== */
+
+a,
+.ax-tabs-w li a,
+.ax-submenu a
+{ color: #555454; cursor: pointer; }
+
+a:hover, a:hover, a:hover:before, a:hover:after, .ax-content-scroll a:hover, .ax-dropdown-list li a:hover, .ax-data-list--item:hover { color: #808080; }
+
+.ax-mesclagem a, .ax-drophover-list li a { color: #555454; }
+
+.ax-pagination li > a { color: #555454; }
+
+.ax-pagination li.active > a,
+.ax-submenu .active
+{ border-color: #555454; }
+
+.pagination .active a:hover {border-color: #555454; }
+
+
+/* ===== SELECT ===== */
+
+.select2-container .select2-results__option--highlighted[aria-selected] { background-color: #555454; }
+
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover { background: #555454; border-color: #555454 ;}
+
+.daterangepicker .ranges li { color: #656565; }
+
+.daterangepicker td.active, .daterangepicker td.active:hover { background: #555454; border-color: #555454 ;}
+
+
+/* ===== CASOS ESPECIFICOS ===== */
+
+.ax-modal-header .ax-modal-voltar { border-right: 1px solid #656565; color: #8a8a8a; }
+
+.ax-modal-header .ax-modal-button, .ax-modal-actions { border-left: 1px solid #656565; color: #ababab;  }
+
+.ax-btn-config { color: #8a8a8a; }
+
+.ax-modal-actions a, .ax-modal-actions button { color: #8a8a8a; }
+
+.table tbody tr.ax-andamento-novo td { background-color: rgba(117, 117, 117, 0.3); }
+
+.user-name b, .ax-dropdown-list li a { color: #656565; }
+
+.ax-form-padrao .ax-form-titles { color: #656565; }
+
+.ax-border-color-1 { border-color: #656565; }
+
+.select2-container--focus .select2-selection--single {
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(79, 96, 157, 0.6);
+}
+
+/* ===== REMOCAO LOGO XS ===== */
+@media only screen and (max-width: 767px) {
+
+    h1 { background: none;}
+
+}
+
+/* Loaders */
+.pace .pace-progress {
+  background: #6b6b73;
+}
+
+/* Select2 */
+.select2-container--highlight .select2-selection--single {
+  border: 2px solid #757575;
+}
+
+.select2-container--highlight.select2-container--focus .select2-selection--single {
+  border-color: #757575 !important;
+}
+
+.select2-container--highlight .select2-dropdown {
+  border-color: #757575;
+}
+
+/* DateNavy */
+.DateNavy.datenavy-highlighted .btn,
+.DateNavy.datenavy-highlighted .btn:active,
+.DateNavy.datenavy-highlighted .btn:focus {
+  border-color:#757575;
+  color: #757575;
+}
+
+.DateNavy.datenavy-highlighted a:hover {
+    border-color: #757575;
+}
+
+/* ===== AGENDA ===== */
+#calendar .fc-toolbar h2 {
+  color: #757575;
+}
+#calendar .fc-button {
+  color: #757575;
+}
+#calendar .fc-view-container {
+  border-color: #757575;
+}
+#calendar .fc-now-indicator-line {
+  border-color: #435860;
+  background-color: #435860;
+}
+.fc-now-indicator {
+  border-color: #435860;
+}
+#calendar .fc-state-active {
+  border-bottom: 2px solid #757675;
+}
+/* ===== DASHBOARD - INICIO 1 ===== */
+.ax-dash1-header h4 {
+  color: #547773;
+}
+.ax-dash1-header {
+  background-color: rgba(84, 119, 115, 0.1);
+  border-bottom-color: #547773;
+}
+.ax-dash1 {
+  border-color: #547773;
+}
+.ax-dash1 #calendar .fc-axis {
+  color: #547773;
+}
+.ax-dash1 .select2-container .select2-selection--single {
+  border-color: #547773 !important;
+}
+.ax-dash1 #calendar .fc-widget-content {
+  border-color:rgba(84, 119, 115, 0.4);
+}
+
+/* ===== DASHBOARD - INICIO 1 ===== */
+
+/* ===== FINANCAS - LISTAGEM DE LANÇAMENTOS ===== */
+.financas-table thead {
+  background: #3C3C3C;
+}
